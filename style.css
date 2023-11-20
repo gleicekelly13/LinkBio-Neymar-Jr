@@ -147,3 +147,44 @@ h1::after {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.secao-tabela h2 {
+    font-size: 74px;
+    color: #fff;
+    text-shadow: 3px 6px 1px #000000;
+}
+
+.tabela th {
+    font-size: 26px;
+    background-color: #000000cc;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.tabela th, tr,td {
+    padding: 20px;
+}
+
+.tabela td img {
+    width: 30px;
+}
+
+.tabela tbody td:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tabela tbody tr:nth-of-type(odd) {
+    background-color: #ffffffcc;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.tabela tbody tr:nth-of-type(even) {
+    background-color: #000000cc;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
