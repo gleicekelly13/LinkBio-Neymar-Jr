@@ -50,3 +50,13 @@
     justify-content: center;
     
 }
+
+.imgPerfil::before {
+    content: "";
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    background: linear-gradient(90deg, #ffdff0, #009c3b);
+    z-index: -1; /* Coloca o efeito atrás do elemento */
+    border-radius: 100%;
+}
