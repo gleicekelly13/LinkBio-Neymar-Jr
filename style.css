@@ -65,7 +65,7 @@
 .imgPerfil-titulo h1 {
     position: relative;
     font-size: 50px;
-    
+    color: #fff;
     text-shadow: 2px 6px 3px #000000;
     
 }
@@ -128,7 +128,7 @@ h1::after {
 
 .container-links a img {
     width: 30px;
-}
+} 
 
 .secao-tabela {
     position: relative;
